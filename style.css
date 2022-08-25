@@ -1,0 +1,64 @@
+body {
+  background-color: palegoldenrod;
+  padding: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rebeccapurple;
+}
+
+.form {
+  font-size: 0.7rem;
+  color: wheat;
+  background-color: rebeccapurple;
+  border-radius: 20px;
+  padding: 20px;
+  min-width: none;
+}
+label.form {
+  display: flex;
+}
+
+input.name_imput {
+  border-radius: 5px;
+  color: rebeccapurple;
+  width: 100%;
+}
+
+label.text_name_decoration {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+input.surname_imput {
+  border-radius: 5px;
+  color: rebeccapurple;
+  width: 100%;
+}
+
+label.text_surname_decoration {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+label.text_genre_deco {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+input.age_deco {
+  height: 20px;
+  width: 100%;
+  border-radius: 5px;
+  color: rebeccapurple;
+}
+
+.genre_deco {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}

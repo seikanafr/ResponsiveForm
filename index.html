@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- formulaire -->
+    <h1>Un Formulaire Responsive</h1>
+    <div class="form">
+      <label class="text_name_decoration" for="name">Ton Nom</label>
+      <input
+        class="name_imput"
+        type="text"
+        id="name"
+        required
+        minlength="4"
+        maxlength="10"
+        size="22"
+      />
+      <br />
+      <label class="text_surname_decoration" for="surname">Ton Prénom</label>
+      <input
+        class="surname_imput"
+        type="text"
+        id="name"
+        required
+        minlength="4"
+        maxlength="10"
+      />
+      <br />
+      <label class="text_genre_deco" for="age">Ton Age </label>
+      <input class="age_deco" type="date" id="age" />
+      <br />
+      <div class="genre_deco">
+        <input type="radio" id="boy" name="choice" value="huey" checked />
+        <label for="huey">Homme</label>
+
+        <input type="radio" id="girl" name="choice" value="dewey" />
+        <label for="dewey">Femme</label>
+
+        <input type="radio" id="other" name="choice" value="dewey" />
+        <label for="dewey">Autre</label>
+      </div>
+    </div>
+  </body>
+</html>
